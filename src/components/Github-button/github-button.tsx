@@ -1,4 +1,5 @@
 import React from "react";
+import "./github-button-styles.css"
 
 
 const GitHubLoginButton: React.FC = () => {
@@ -11,16 +12,8 @@ const GitHubLoginButton: React.FC = () => {
   };
 
   return (
-    <button
+    <button className="github--button"
       onClick={handleLogin}
-      style={{
-        padding: '10px 20px',
-        backgroundColor: '#333',
-        color: '#fff',
-        border: 'none',
-        borderRadius: '5px',
-        cursor: 'pointer',
-      }}
     >
       Login with GitHub
     </button>
