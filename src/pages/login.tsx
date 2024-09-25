@@ -1,11 +1,9 @@
 import React from "react";
-import Body from "../components/body";
-import Header from "../components/header";
+import Body from "../components/Body/body";
 
 const Login: React.FC = () => {
     return (
         <div>
-            <Header/>
             <Body/>
         </div>
         

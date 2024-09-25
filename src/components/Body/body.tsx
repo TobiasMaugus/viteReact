@@ -1,5 +1,5 @@
 import React from "react";
-import GitHubLoginButton from "./github-button";
+import GitHubLoginButton from "../Github-button/github-button";
 
 const Body: React.FC = ()=>{
     return(
