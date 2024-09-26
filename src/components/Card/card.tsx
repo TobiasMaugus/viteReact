@@ -12,13 +12,13 @@ const Card: React.FC = ()=>{
         <div className="card--container">
             <div className="card--pictures--container">
                 <img src={icon1} alt="icon1" className="card--icons"/>
-                <img src={icon2} alt="icon2" className="card--icons"/>
                 <img src={icon3} alt="icon3" className="card--icons"/>
+                <img src={icon2} alt="icon2" className="card--icons"/>
                 <img src={icon4} alt="icon4" className="card--icons"/>
             </div>
-            <div>
+            <div className="card--texts">
                 <h1 className="card--title">Welcome</h1>
-                <h2 className="card--text">Please login with Github</h2>
+                <h1 className="card--subtitle">Please login with Github</h1>
             </div>
             <GitHubLoginButton/>
         </div>

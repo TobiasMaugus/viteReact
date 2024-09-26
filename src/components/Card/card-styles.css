@@ -1,6 +1,20 @@
 .card--container{
     border-radius: 10px;
-    width: 50%;
+    width: 42%;
     background-color: brown;
-    height: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card--icons{
+    height: 50px;
+}
+
+.card--texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
