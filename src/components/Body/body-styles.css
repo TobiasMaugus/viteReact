@@ -1,6 +1,7 @@
 .body--container{
     width: 100%;
-    background-color: aquamarine;
+    background-color: #9B5DE5;
+    background: linear-gradient(to bottom right, #D160C4, #9B5DE5); /* Gradient from top-left to bottom-right */
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
