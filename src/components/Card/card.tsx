@@ -20,7 +20,7 @@ const Card: React.FC = ()=>{
                 <h1 className="card--title">Welcome</h1>
                 <h1 className="card--subtitle">Please login with Github</h1>
             </div>
-            <GitHubLoginButton/>
+            <div className="github--button"> <GitHubLoginButton/></div>
         </div>
     )
 }

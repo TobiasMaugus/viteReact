@@ -1,5 +1,7 @@
 import React from "react";
 import "./github-button-styles.css"
+import githubIcon from "../../assets/github-icon.svg"
+import githubTextLogo from "../../assets/GitHub_Logo.png"
 
 
 const GitHubLoginButton: React.FC = () => {
@@ -15,7 +17,8 @@ const GitHubLoginButton: React.FC = () => {
     <button className="github--button"
       onClick={handleLogin}
     >
-      Login with GitHub
+      <img src={githubIcon} alt="github-icon" className="button--githubIcon"/>
+      <img src={githubTextLogo} alt="github-text" className="button--githubTextLogo"/>
     </button>
   );
 };
