@@ -13,15 +13,33 @@
 }
 
 .card--texts{
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Roboto Mono", monospace;
     font-weight: bold; 
-    background: linear-gradient(to bottom right, #D160C4, #D160C4); /* Your gradient */
+    background: linear-gradient(to bottom right, #D160C4, #D160C4); 
     -webkit-background-clip: text; 
     background-clip: text;
     -webkit-text-stroke: 4px transparent;
-    color: #6B6E70;
+    color: black;
 }
+
+.card--subtitle{
+    font-size: 25px;
+}
+
+.card--pictures--container{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card--icons{
+    
+}
+
+
