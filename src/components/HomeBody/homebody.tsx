@@ -1,5 +1,5 @@
 import React from "react";
-import "./homebody--styles";
+import "./homebody--styles.css";
 import Header from "../Header/header.tsx";
 
 const HomeBody: React.FC = ()=>{
