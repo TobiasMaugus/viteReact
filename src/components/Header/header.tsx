@@ -4,11 +4,9 @@ import "./header--styles.css";
 const Header: React.FC = ()=>{
     return(
         <div className="header--container">
-            <nav>
-                <button>add</button>
-                <button>edit</button>
-                <button>remove</button>
-            </nav>
+                <button className="header--button">add</button>
+                <button className="header--button">edit</button>
+                <button className="header--button">remove</button>
         </div>
     )
 }
