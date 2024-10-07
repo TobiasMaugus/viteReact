@@ -1,3 +1,34 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+.wrapper {
+  display: block;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  background-color: black;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+.sliderImg {
+  display: block;
+  box-sizing: border-box;
+  height: 300px;
+  width: 100%;
+  padding: 0px 2vw;
+  object-fit: cover;
+}
+
 .carousel-container {
   position: relative;
   width: 100%; /* Tamanho do container */
