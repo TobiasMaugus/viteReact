@@ -2,79 +2,57 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
 
 .wrapper {
-  display: block;
+  display: flex; /* Usando flex para garantir que o card preencha o slide corretamente */
+  justify-content: center;
+  align-items: center;
 }
 
-.slides .slick-prev,
-.slides .slick-next {
+.slick-slide {
+  display: flex; /* Garante que o conteúdo preencha o slide */
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev, 
+.slick-next {
   position: absolute;
   top: 50%;
   z-index: 1;
   background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  transform: translateY(-50%);
 }
 
-.slides .slick-prev {
-  left: 5%;
+.slick-prev {
+  left: 10px;
 }
 
-.slides .slick-next {
-  right: 5%;
+.slick-next {
+  right: 10px;
 }
-.sliderImg {
-  display: block;
-  box-sizing: border-box;
-  height: 300px;
-  width: 100%;
-  padding: 0px 2vw;
-  object-fit: cover;
+
+.slick-dots {
+  bottom: -30px; /* Ajusta a posição dos dots */
 }
 
 .carousel-container {
   position: relative;
-  width: 100%; /* Tamanho do container */
-  max-width: 200px;
+  width: 100%;
+  max-width: 100%;
   overflow: hidden;
 }
 
 .carousel-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 
-.carousel-content {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
 .carousel-card {
-  min-width: calc(100% - 40px); /* Para mostrar parte dos cartões adjacentes */
-  margin: 0 10px; /* Ajustar espaçamento dos cartões */
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
+  padding: 20px;
+  box-sizing: border-box;
 }
