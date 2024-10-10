@@ -9,8 +9,8 @@ interface CardProps {
 const HomeCard: React.FC<CardProps> = ({ title, content }:CardProps) => {
   return (
     <div className="Homecard">
-      <h3>{title}</h3>
-      <p>{content}</p>
+      <h3 className='HomecardTitle'>{title}</h3>
+      <p className='HomecardContent'>{content}</p>
     </div>
   );
 };

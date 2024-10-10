@@ -32,6 +32,15 @@ const HomeBody: React.FC = ()=>{
                 <HomeCard title="Card 3" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
                 ac erat et diam congue cursus. Nunc eget maximus lacus, a ultricies dolor.
                 Ut ut vehicula nibh. Maecenas tincidunt ligula sed luctus placerat."/>
+                <HomeCard title="Card 3" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
+                ac erat et diam congue cursus. Nunc eget maximus lacus, a ultricies dolor.
+                Ut ut vehicula nibh. Maecenas tincidunt ligula sed luctus placerat."/>
+                 <HomeCard title="Card 3" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
+                ac erat et diam congue cursus. Nunc eget maximus lacus, a ultricies dolor.
+                Ut ut vehicula nibh. Maecenas tincidunt ligula sed luctus placerat."/>
+                <HomeCard title="Card 3" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris 
+                ac erat et diam congue cursus. Nunc eget maximus lacus, a ultricies dolor.
+                Ut ut vehicula nibh. Maecenas tincidunt ligula sed luctus placerat."/>
             </div>
         </div>
 
