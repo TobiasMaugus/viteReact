@@ -2,9 +2,11 @@ import React from "react";
 import "./homebody--styles.css";
 import Header from "../Header/header.tsx";
 import HomeCard from "../HomeCard/HomeCard.tsx";
+import HomeFooter from "../HomeFooter/HomeFooter.tsx";
 
 const HomeBody: React.FC = ()=>{
     return(
+        <div>
         <div className="homeBody--container">
             <Header/>
             <div className="content--container">
@@ -43,7 +45,10 @@ const HomeBody: React.FC = ()=>{
                 Ut ut vehicula nibh. Maecenas tincidunt ligula sed luctus placerat."/>
             </div>
         </div>
-
+        <div>
+            <HomeFooter/>
+        </div>
+        </div>
     )
 }
 export default HomeBody;
