@@ -10,8 +10,12 @@
     flex-direction: column;
 }
 
-.carousel--container{
+.content--container{
+    margin-top: 15px;
     align-items: center;
-    display: block;
-    padding: 20px
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
 }
